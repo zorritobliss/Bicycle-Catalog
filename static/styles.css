@@ -1,0 +1,145 @@
+body {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 16px;
+  line-height: 1;
+  color: #0d12ce;
+  background-color: #fcf8e3;
+
+}
+
+nav {
+	margin: 0;
+	width: 100%;
+	background-color: blue;
+
+}
+
+nav:hover {
+	background-color: RoyalBlue;
+	box-shadow: 0 20px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+a {
+	color: blueviolet;
+}
+
+a:hover {
+	text-decoration: none;
+	background: DodgerBlue;
+	color: white;
+
+}
+
+
+
+
+ul, 
+li {
+	list-style-type: none
+}
+
+ul {
+	padding-left: 0;
+}
+
+h3 {
+	margin-top: 0px;
+}
+
+h1 {
+	color: whitesmoke;
+
+}
+.btn {
+	border-radius: 10px;
+}
+
+.card {
+
+  background-color: DodgerBlue;
+  color: whitesmoke;
+  border-radius: 14px;
+  min-height: 100px;
+  margin: 0 1rem 2rem 1rem;
+  box-shadow: 0 20px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+
+
+}
+
+.img-thumbnail {
+	margin-top: 1rem;
+	background-position: center;
+}
+
+.name {
+	padding: 0;
+	color: #0f0f0f;
+
+}
+
+.editdeletepane {
+	padding-bottom: 1rem;
+}
+
+.item-description {
+	padding: 0 1rem;
+}
+
+.item-info-card {
+	padding: 1rem;
+	background-color: DodgerBlue;
+	color: floralwhite;
+	box-shadow: 0 20px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.item-info-card:hover {
+	background-color: RoyalBlue;
+	color: floralwhite;
+
+}
+
+.detail-card {
+	margin: 0;
+}
+
+.navbar-profile-image {
+	height: 40px;
+	padding-bottom: 15px;
+}
+
+.navbar-brand {
+	text-transform: uppercase;
+	font-size: 2.5rem;
+}
+
+
+
+/* Style buttons */
+.bt {
+  width: 100%;
+  background-color: DodgerBlue; /* Blue background */
+  border: none; /* Remove borders */
+  color: white; /* White text */
+  padding: 12px 16px; /* Some padding */
+  font-size: 24px; /* Set a font size */
+  cursor: pointer; /* Mouse pointer on hover */
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+/* Darker background on mouse-over */
+.bt:hover {
+  background-color: RoyalBlue;
+}
+
+
+
+
+
+/* Dropdown menu background color */
+
+.navbar-nav > li > .dropdown-menu {     background-color: DodgerBlue;  }
+
+/* Dropdown menu font color*/
+
+ .navbar-nav > li > .dropdown-menu a{   color: floralwhite;  }
+
